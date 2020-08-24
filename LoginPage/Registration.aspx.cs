@@ -23,7 +23,7 @@ namespace LoginPage
                 int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
                 if (temp == 1)
                 {
-                    Response.Write("User already Exist");
+                    Response.Write("User already Exist..");
                 }
                 conn.Close();
             }
